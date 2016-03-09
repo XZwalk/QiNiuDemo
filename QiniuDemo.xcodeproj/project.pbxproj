@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAD13CFD1C8FBAF300673CB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD13CFC1C8FBAF300673CB0 /* main.m */; };
+		BAD13D001C8FBAF300673CB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD13CFF1C8FBAF300673CB0 /* AppDelegate.m */; };
+		BAD13D031C8FBAF300673CB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD13D021C8FBAF300673CB0 /* ViewController.m */; };
+		BAD13D061C8FBAF300673CB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD13D041C8FBAF300673CB0 /* Main.storyboard */; };
+		BAD13D081C8FBAF300673CB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAD13D071C8FBAF300673CB0 /* Assets.xcassets */; };
+		BAD13D0B1C8FBAF300673CB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD13D091C8FBAF300673CB0 /* LaunchScreen.storyboard */; };
+		BAD13D161C8FBAF300673CB0 /* QiniuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD13D151C8FBAF300673CB0 /* QiniuDemoTests.m */; };
+		BAD13D211C8FBAF300673CB0 /* QiniuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD13D201C8FBAF300673CB0 /* QiniuDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAD13D121C8FBAF300673CB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAD13CF01C8FBAF300673CB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAD13CF71C8FBAF300673CB0;
+			remoteInfo = QiniuDemo;
+		};
+		BAD13D1D1C8FBAF300673CB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAD13CF01C8FBAF300673CB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAD13CF71C8FBAF300673CB0;
+			remoteInfo = QiniuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAD13CF81C8FBAF300673CB0 /* QiniuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiniuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD13CFC1C8FBAF300673CB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAD13CFE1C8FBAF300673CB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAD13CFF1C8FBAF300673CB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAD13D011C8FBAF300673CB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAD13D021C8FBAF300673CB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAD13D051C8FBAF300673CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAD13D071C8FBAF300673CB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAD13D0A1C8FBAF300673CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAD13D0C1C8FBAF300673CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAD13D111C8FBAF300673CB0 /* QiniuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiniuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD13D151C8FBAF300673CB0 /* QiniuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiniuDemoTests.m; sourceTree = "<group>"; };
+		BAD13D171C8FBAF300673CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAD13D1C1C8FBAF300673CB0 /* QiniuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiniuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD13D201C8FBAF300673CB0 /* QiniuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiniuDemoUITests.m; sourceTree = "<group>"; };
+		BAD13D221C8FBAF300673CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAD13CF51C8FBAF300673CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD13D0E1C8FBAF300673CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD13D191C8FBAF300673CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAD13CEF1C8FBAF300673CB0 = {
+			isa = PBXGroup;
+			children = (
+				BAD13CFA1C8FBAF300673CB0 /* QiniuDemo */,
+				BAD13D141C8FBAF300673CB0 /* QiniuDemoTests */,
+				BAD13D1F1C8FBAF300673CB0 /* QiniuDemoUITests */,
+				BAD13CF91C8FBAF300673CB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAD13CF91C8FBAF300673CB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAD13CF81C8FBAF300673CB0 /* QiniuDemo.app */,
+				BAD13D111C8FBAF300673CB0 /* QiniuDemoTests.xctest */,
+				BAD13D1C1C8FBAF300673CB0 /* QiniuDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAD13CFA1C8FBAF300673CB0 /* QiniuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BAD13CFE1C8FBAF300673CB0 /* AppDelegate.h */,
+				BAD13CFF1C8FBAF300673CB0 /* AppDelegate.m */,
+				BAD13D011C8FBAF300673CB0 /* ViewController.h */,
+				BAD13D021C8FBAF300673CB0 /* ViewController.m */,
+				BAD13D041C8FBAF300673CB0 /* Main.storyboard */,
+				BAD13D071C8FBAF300673CB0 /* Assets.xcassets */,
+				BAD13D091C8FBAF300673CB0 /* LaunchScreen.storyboard */,
+				BAD13D0C1C8FBAF300673CB0 /* Info.plist */,
+				BAD13CFB1C8FBAF300673CB0 /* Supporting Files */,
+			);
+			path = QiniuDemo;
+			sourceTree = "<group>";
+		};
+		BAD13CFB1C8FBAF300673CB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAD13CFC1C8FBAF300673CB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAD13D141C8FBAF300673CB0 /* QiniuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAD13D151C8FBAF300673CB0 /* QiniuDemoTests.m */,
+				BAD13D171C8FBAF300673CB0 /* Info.plist */,
+			);
+			path = QiniuDemoTests;
+			sourceTree = "<group>";
+		};
+		BAD13D1F1C8FBAF300673CB0 /* QiniuDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAD13D201C8FBAF300673CB0 /* QiniuDemoUITests.m */,
+				BAD13D221C8FBAF300673CB0 /* Info.plist */,
+			);
+			path = QiniuDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAD13CF71C8FBAF300673CB0 /* QiniuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD13D251C8FBAF300673CB0 /* Build configuration list for PBXNativeTarget "QiniuDemo" */;
+			buildPhases = (
+				BAD13CF41C8FBAF300673CB0 /* Sources */,
+				BAD13CF51C8FBAF300673CB0 /* Frameworks */,
+				BAD13CF61C8FBAF300673CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiniuDemo;
+			productName = QiniuDemo;
+			productReference = BAD13CF81C8FBAF300673CB0 /* QiniuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAD13D101C8FBAF300673CB0 /* QiniuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD13D281C8FBAF300673CB0 /* Build configuration list for PBXNativeTarget "QiniuDemoTests" */;
+			buildPhases = (
+				BAD13D0D1C8FBAF300673CB0 /* Sources */,
+				BAD13D0E1C8FBAF300673CB0 /* Frameworks */,
+				BAD13D0F1C8FBAF300673CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAD13D131C8FBAF300673CB0 /* PBXTargetDependency */,
+			);
+			name = QiniuDemoTests;
+			productName = QiniuDemoTests;
+			productReference = BAD13D111C8FBAF300673CB0 /* QiniuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAD13D1B1C8FBAF300673CB0 /* QiniuDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD13D2B1C8FBAF300673CB0 /* Build configuration list for PBXNativeTarget "QiniuDemoUITests" */;
+			buildPhases = (
+				BAD13D181C8FBAF300673CB0 /* Sources */,
+				BAD13D191C8FBAF300673CB0 /* Frameworks */,
+				BAD13D1A1C8FBAF300673CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAD13D1E1C8FBAF300673CB0 /* PBXTargetDependency */,
+			);
+			name = QiniuDemoUITests;
+			productName = QiniuDemoUITests;
+			productReference = BAD13D1C1C8FBAF300673CB0 /* QiniuDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAD13CF01C8FBAF300673CB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Nemo;
+				TargetAttributes = {
+					BAD13CF71C8FBAF300673CB0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BAD13D101C8FBAF300673CB0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BAD13CF71C8FBAF300673CB0;
+					};
+					BAD13D1B1C8FBAF300673CB0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BAD13CF71C8FBAF300673CB0;
+					};
+				};
+			};
+			buildConfigurationList = BAD13CF31C8FBAF300673CB0 /* Build configuration list for PBXProject "QiniuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAD13CEF1C8FBAF300673CB0;
+			productRefGroup = BAD13CF91C8FBAF300673CB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAD13CF71C8FBAF300673CB0 /* QiniuDemo */,
+				BAD13D101C8FBAF300673CB0 /* QiniuDemoTests */,
+				BAD13D1B1C8FBAF300673CB0 /* QiniuDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAD13CF61C8FBAF300673CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD13D0B1C8FBAF300673CB0 /* LaunchScreen.storyboard in Resources */,
+				BAD13D081C8FBAF300673CB0 /* Assets.xcassets in Resources */,
+				BAD13D061C8FBAF300673CB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD13D0F1C8FBAF300673CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD13D1A1C8FBAF300673CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAD13CF41C8FBAF300673CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD13D031C8FBAF300673CB0 /* ViewController.m in Sources */,
+				BAD13D001C8FBAF300673CB0 /* AppDelegate.m in Sources */,
+				BAD13CFD1C8FBAF300673CB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD13D0D1C8FBAF300673CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD13D161C8FBAF300673CB0 /* QiniuDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD13D181C8FBAF300673CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD13D211C8FBAF300673CB0 /* QiniuDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAD13D131C8FBAF300673CB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAD13CF71C8FBAF300673CB0 /* QiniuDemo */;
+			targetProxy = BAD13D121C8FBAF300673CB0 /* PBXContainerItemProxy */;
+		};
+		BAD13D1E1C8FBAF300673CB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAD13CF71C8FBAF300673CB0 /* QiniuDemo */;
+			targetProxy = BAD13D1D1C8FBAF300673CB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAD13D041C8FBAF300673CB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAD13D051C8FBAF300673CB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAD13D091C8FBAF300673CB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAD13D0A1C8FBAF300673CB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAD13D231C8FBAF300673CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAD13D241C8FBAF300673CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAD13D261C8FBAF300673CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QiniuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QHZC.QiniuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAD13D271C8FBAF300673CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QiniuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QHZC.QiniuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BAD13D291C8FBAF300673CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QiniuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QHZC.QiniuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiniuDemo.app/QiniuDemo";
+			};
+			name = Debug;
+		};
+		BAD13D2A1C8FBAF300673CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QiniuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QHZC.QiniuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiniuDemo.app/QiniuDemo";
+			};
+			name = Release;
+		};
+		BAD13D2C1C8FBAF300673CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QiniuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QHZC.QiniuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QiniuDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BAD13D2D1C8FBAF300673CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QiniuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QHZC.QiniuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QiniuDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAD13CF31C8FBAF300673CB0 /* Build configuration list for PBXProject "QiniuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD13D231C8FBAF300673CB0 /* Debug */,
+				BAD13D241C8FBAF300673CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAD13D251C8FBAF300673CB0 /* Build configuration list for PBXNativeTarget "QiniuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD13D261C8FBAF300673CB0 /* Debug */,
+				BAD13D271C8FBAF300673CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAD13D281C8FBAF300673CB0 /* Build configuration list for PBXNativeTarget "QiniuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD13D291C8FBAF300673CB0 /* Debug */,
+				BAD13D2A1C8FBAF300673CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAD13D2B1C8FBAF300673CB0 /* Build configuration list for PBXNativeTarget "QiniuDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD13D2C1C8FBAF300673CB0 /* Debug */,
+				BAD13D2D1C8FBAF300673CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAD13CF01C8FBAF300673CB0 /* Project object */;
+}
